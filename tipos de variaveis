@@ -1,0 +1,8 @@
+fun main(){
+   val a: int = 1000
+   val b: string = "log message"
+   val c: float = 3.14
+   val d: long = 100_000_000
+   val e: boolean = false
+   val f: char = '\'
+}
