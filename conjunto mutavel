@@ -1,0 +1,8 @@
+fun main() {
+    // conjunto apenas de leitura
+   val apenasLeituraFrutas = setOf("abacate","banana","cereja","cereja")
+   println(apenasLeituraFrutas)
+   // conjunto mutavel com declaração de tipos explícita
+   val frutas: MutableSet<String> = mutableSetOf("Laranja", "tangerina","Uva","Uva")
+   println(frutas)   
+}
