@@ -1,0 +1,8 @@
+fun main() {
+   val numeros = mutableListOf(1, 2, 3, 4, 5)
+   numeros.add(6)         //adiciona 6 ao final
+   numeros.removeAt(0)    // remove o primeiro elemento    
+   numeros[0] = 10        //altera o valor do primeiro elemento
+   println(numeros)       // saida [10, 3, 4, 5, 6]
+   
+}
