@@ -1,0 +1,14 @@
+fun main() {
+    val obj = "214"
+    when (obj) {
+        "1" -> println("um")
+        "2" -> println("dois")
+        "3" -> println("tres")
+        "4" -> println("quatro")
+        "5" -> println("cinco")
+        "6" -> println("seis")
+        "teste" -> println("passou")
+        else -> println("não passou")       
+    }
+   
+}
