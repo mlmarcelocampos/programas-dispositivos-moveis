@@ -1,0 +1,7 @@
+fun soma(a: int, b: int): int { 
+    return a + b    
+}
+
+fun main(){
+    println( soma (7,4))
+}
