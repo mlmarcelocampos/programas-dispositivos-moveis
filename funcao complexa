@@ -1,0 +1,21 @@
+val NomeCadastrados = mutableListOf("João Pedro", "Jane Silva")
+val emailCadastrado = mutableListOf("joão@gmail.com","jane@gmail.com")
+ 
+fun RegistrarUsuario(UserName: String, email: String): String {
+    if (UserName in NomeCadastrados ){
+        return "nome de usuario ja utilizado tente outro"
+    }
+    if (email in emailCadastrado ){
+        return "email de usuario ja utilizado tente outro"
+    } 
+    NomeCadastrados.add(UserName)
+    emailCadastrado.add(email)
+    return "Usuario registrado com Sucesso: $UserName"
+}
+fun main(){
+    println(RegistrarUsuario("joão pedro","joao@gmail.com"))
+    
+    println(RegistrarUsuario("Jane Silva","jane@gmail.com"))
+    
+  
+}
