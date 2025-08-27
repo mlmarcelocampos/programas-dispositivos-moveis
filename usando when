@@ -1,0 +1,11 @@
+fun main() {
+    val luzSemaforo = "verde"
+    val acaotransto = when (luzSemaforo){
+        "verde"-> "siga"
+        "amarelo"-> "atenção"
+        "vermelho"-> "pare"
+        else ->"mal funcionamento"
+    }
+        println(acaotransto)
+   
+}
