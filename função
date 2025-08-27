@@ -1,4 +1,4 @@
-fun soma(a: int, b: int): int { 
+fun soma(a: Int, b: Int): Int { 
     return a + b    
 }
 
