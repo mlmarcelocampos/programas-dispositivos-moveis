@@ -1,0 +1,15 @@
+class contatos(val id: Int, var email: String)
+//define a classe contatos
+// entre parenteses estao as propriedades id e email
+
+fun main() {
+    //criar um instancia chamada contato da classe contato
+    val contato = contatos(1, "Mary@gmail.com")
+    //imprimir o valor da propriedade email
+    println(contato.email)
+    //atualiza o valor da propriedade email
+    contato.email = "jane@gmail.com"
+    //imprimir um novo valor da propriedade email
+    println(contato.email)
+    //resposta esperada jane@gmail.com
+}
